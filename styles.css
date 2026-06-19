@@ -74,6 +74,7 @@ img {
     padding: 1rem;
     padding: 1rem;
     border-left: 4px solid #38bdf8;
+    border-right: 4px solid #38bdf8;
 }
 
 aside {
@@ -135,4 +136,13 @@ header, nav, footer {
 /* target the sections in .card-row with a width for 30% */
 .card-row section {
     width: 30%;
+}
+
+/* ===== Media Query (Large) ===== */
+@media screen and (min-width: 1200px) {
+    body {
+        max-width: 1100px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 400px;
+    }
 }
