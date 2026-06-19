@@ -114,7 +114,6 @@ footer {
         justify-content: center;
         gap: 1rem;
     }
-}
 /* change the body's grid template to 1fr 300px */
 body {
     display: grid;
@@ -136,6 +135,7 @@ header, nav, footer {
 /* target the sections in .card-row with a width for 30% */
 .card-row section {
     width: 30%;
+}
 }
 
 /* ===== Media Query (Large) ===== */
